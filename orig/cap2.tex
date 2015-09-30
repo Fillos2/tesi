@@ -1,0 +1,37 @@
+\chapter{Strumenti per grafici, immagini, etc.}
+
+Questo capitolo contiene una breve panoramica sugli strumenti consigliati per 
+la gestione di grafici, immagini etc.
+
+\section{Grafici}
+
+Per  grafici  2D il  prodotto  consigliato  è \texttt{xmgrace}  che  trovate
+installato su  alcune macchine. Il suo  punto di forza è  la semplicità, in
+pratica gli  date in pasto  un file ASCII contenente  tutti i valori  e poi
+gestite il contorno.
+
+\section{Immagini}
+
+Un qualunque prodotto fra i seguenti:
+\begin{description}
+\item[xv:] fondamentalmente permette di salvare immagini già esistenti in differenti formati e, al limite, di
+selezionare una sottoimmagine o cambiare i colori. È insostituibile quando 
+occorre acquisire l'output di una finestra sotto X11; in questo caso mediante il pulsante grab è possibile
+decidere se acquisire una finestra o anche tutto lo schermo.
+\item[gimp:] programma abbastanza sofisticato di fotoritocco.
+\item[xpaint:] come il precedente ma molto più limitato; però anche molto più veloce.
+\end{description}
+
+\section{Correzzione ortografica}
+
+Sì lo so, c'è un errore~:-).
+L'unico programma disponibile è \texttt{aspell}. Funziona bene se si ha avuto l'accortezza di usare dirrettamente le lettere
+accentate.
+Si lancia con: \texttt{aspell --lang=it --mode=tex check <elenco file da controllare>}, dopodiché si ferma su ogni parola considerata
+sospetta, mostrando eventuali suggerimenti. I comandi principali sono:
+(A)~accetta la parola (anche le successive occorrenze), (I)~inserisci la parola nel vocabolario personale, (R)~reinserisci la parola e
+(numero)~sostituisci la parola con quella suggerita avente numero nn.
+
+
+
+

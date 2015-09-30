@@ -1,0 +1,53 @@
+\makeatletter
+\setcounter{tocdepth}{4}
+\oddsidemargin 0.5in \evensidemargin 0.5in
+\marginparwidth 40pt \marginparsep 15pt
+\topmargin 0pt \headsep .5in
+\textheight 8.1in \textwidth 5.7in
+
+
+
+	\thispagestyle{empty}%
+        \null%
+	\begin{center}
+                 {\Large \uppercase{Universit\`a degli Studi di Modena e Reggio Emilia}}\\
+                 \vskip 1 cm
+                 \uppercase{Dipartimento di Scienze e Metodi dell'Ingegneria}\\
+                 \vskip 1 cm
+                 \uppercase{Corso di Laurea in Ingegneria \corso}
+	\end{center}
+     	\vfill
+	\begin{center}
+		{\Large\uppercase\expandafter{\@title}}
+	\end{center}
+	\vfill
+
+
+\begin{tabular}{llr}
+{\large Relatore:}    &\principaladviser\\
+{\large Correlatore:} &\firstreader\\ \\
+                 
+{\large Laureando:}  &\autore\\
+\end{tabular}
+
+     \vfill
+     \begin{center}
+     \sc anno accademico \annoacc
+     \end{center}\vskip.5in\newpage}
+
+
+\pagestyle{plain}
+
+
+
+\makeatother
+
+% PAGE HEADERS 
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{{\chaptername}\ \thechapter.\hspace{1em}#1}{}}
+
+% definisce l'header e il footer
+\lhead[\fancyplain{}{}]{\fancyplain{}{\leftmark}} \chead{} \rhead{\thepage}
+\lfoot{} \cfoot{} \rfoot{}
+
+
